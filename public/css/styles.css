@@ -1,13 +1,179 @@
-label {
+* {
+    box-sizing: border-box;
+    margin: 0, auto;
+    padding: 0;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+label {
     font-size: 12px;
     font-weight: bold;
     color: #03264C;
 }
 
 input {
-    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     color: #666;
 
 }
+
+header {
+    background-color: #EAC926;
+}
+
+footer {
+    padding: 5% 20px 5% 20px;
+    background-color: white;
+}
+
+small {
+    font-size: 8px;
+    padding: 20px;
+    color: #666;
+}
+
+footer{
+    padding: 5% 20px 5% 20px;
+    background-color: white;
+}
+
+.botonMenu {
+    text-align: center;
+}
+
+.botonMenu i {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.banner {
+    width: 100%;
+    display: block
+}
+
+.buscador{
+    width: 50%;
+}
+
+.titulares{
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+}
+
+.articuloTop{
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+}
+
+.articuloBot{
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+}
+
+.articulo{
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+}
+
+.articuloPie{
+    margin: 5% 20px 5% 20px;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.descrip {
+    font-size: 16px;
+    color: #666;
+}
+
+/*.fa-truck {}*/
+
+.fa-id-card, .fa-shopping-cart, .fa-home {
+    margin-left: 20px;
+}
+
+.fa-credit-card, .fa-gift, .fa-user-shield {
+    color: royalblue;
+    padding: 20px;
+}
+
+.titulo-food{
+    font-size: 16px;
+    padding-left: 20px;
+    color: #666;
+}
+
+.p-foot {
+    color: #666;
+    padding: 20px;
+}
+
+.botonIngreso {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0044AA;
+}
+
+.botonIngreso:hover {
+    background-color:yellow;
+}
+
+.botonReset {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0044AA;
+}
+
+.botonReset:hover {
+    background-color: yellow;
+}
+
+.labelRegistro{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inputRegistro{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: white;
+}
+

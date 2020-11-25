@@ -4,110 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MercadoLiebre</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 <body>
-    <div>
-        <img src="/images/logo-mercado-liebre.svg" alt="logo">
-        <input type="Buscar productos, marcas y màs">
-        <h1 align = "center">
-            Compra en cuotas y sin tarjetas de crèdito
-        </h1>
-    </div>
+    <main>
+            <header>
+        <div>
+            <img class="logo" src="/images/logo-mercado-liebre.svg" alt="logo">
+            <input class="buscador" type="Buscar productos, marcas y màs"><i class="fas fa-search"></i>
+            <h1 align = "center">
+                Compra en cuotas y sin tarjetas de crèdito
+            </h1>
+        </div>
+        <div class="botonMenu">
+            <i class="fas fa-bars"></i>
+        </div>
 
-    <div>
-        <ul>
-            <li><a href="/ofertas">Ofertas</a></li>
-            <li><a href="/tiendas-oficiales">Tiendas oficiales</a></li>
-            <li><a href="/vender">Vender</a></li>
-            <li><a href="/ayuda">Ayuda</a></li>
-        </ul>
+        <div>
+            <ul>
+                <li><a href="/ofertas">Ofertas</a></li>
+                <li><a href="/tiendas-oficiales">Tiendas oficiales</a></li>
+                <li><a href="/vender">Vender</a></li>
+                <li><a href="/ayuda">Ayuda</a></li>
+            </ul>
+            
+            <ul>
+                <li><a href="/registro">Creá tu cuenta</a><i class="fas fa-home"></i></li>
+                <li><a href="/login">Ingresá</a><i class="far fa-id-card"></i></li>
+                <li><a href="/compras">Mis compras</a><i class="fas fa-shopping-cart"></i></li>
+            </ul>
+        </div>
+        </header>
+        <div>
+            <section>
+                <img class="banner" src="/images/img-home-banner.jpg" alt="">
+            </section>
+        </div>
+
+    
+     <section>
+        <div>
+        <h2 class="titulares"><strong> Basado en tu última visita</strong></h2>
         
-        <ul>
-            <li><a href="/registro">Creá tu cuenta</a></li>
-            <li><a href="/login">Ingresá</a></li>
-            <li><a href="/compras">Mis compras</a></li>
-        </ul>
-        <img src="/images/img-home-banner.jpg" alt=""> 
-    </div>
+        <article class="articuloTop">
+            <img src="/images/img-cafetera-moulinex.jpg" >
+        <ol>
+            <li class="precios">$6.770</li>
+            <li class="descuentos">40% OFF</li>
+            <li class="descrip">Cafetera Moulinex Dolce Gusto Lorem ipsum, dolor sit amet.</li>
+        </ol>
+        </article>
 
-    <div>
+        <article class="articulo">
+            <img src="/images/img-macbook-pro-2019.jpg" >
+        <ol>
+            <li class="precios">$230.000</li>
+            <li class="descuentos">20% OFF</li>
+            <li class="descrip">Macbook Pro 2019 Lorem ipsum, dolor sit amet.</li>
+        </ol>
+        </article>
+
+        <article class="articulo">
+            <img src="/images/img-tv-samsung-smart.jpg" >
+        <ol>
+            <li class="precios">$70.500</li>
+            <li class="descuentos">15% OFF</li>
+            <li class="descrip">Teléfono móvil Samsung Galaxy S10 Lorem ipsum, dolor sit amet.</li>
+        </ol>
+        </article>
+
+        <article class="articuloBot">
+            <img src="/images/img-samsung-galaxy-s10.jpg" >
+        <ol>
+            <li class="precios">$34.000</li>
+            <li class="descuentos">5% OFF</li>
+            <li class="descrip">SmartTv Samsung 43" Lorem ipsum, dolor sit amet.</li>
+        </ol>
+        </article>
+        </div>
+     </section>
+
+     <section>
+        <div>
+        <h2 class="titulares"><strong> Ofertas </strong></h2>
+
         <h2>Basado en tu última visita</h2>
         
-        <img src="/images/img-cafetera-moulinex.jpg" >
+        <article class="articuloTop">
+            <img src="/images/img-cafetera-moulinex.jpg" >
         <ol>
-            <li>$6.770</li>
-            <li>40% OFF</li>
-            <li>Cafetera Moulinex Dolce Gusto Lorem ipsum, dolor sit amet.</li>
+            <li class="precios">$6.770</li>
+            <li class="descuentos">40% OFF</li>
+            <li class="descrip">Cafetera Moulinex Dolce Gusto Lorem ipsum, dolor sit amet.</li>
         </ol>
+        </article>
 
-        <img src="/images/img-macbook-pro-2019.jpg" >
+        <article class="articulo">
+            <img src="/images/img-macbook-pro-2019.jpg" >
         <ol>
-            <li>$230.000</li>
-            <li>20% OFF</li>
-            <li>Macbook Pro 2019 Lorem ipsum, dolor sit amet.</li>
+            <li class="precios">$230.000</li>
+            <li class="descuentos">20% OFF</li>
+            <li class="descrip">Macbook Pro 2019 Lorem ipsum, dolor sit amet.</li>
         </ol>
+        </article>
 
-        <img src="/images/img-tv-samsung-smart.jpg" >
+        <article class="articulo">
+            <img src="/images/img-tv-samsung-smart.jpg" >
         <ol>
-            <li>$70.500</li>
-            <li>15% OFF</li>
-            <li>Teléfono móvil Samsung Galaxy S10 Lorem ipsum, dolor sit amet.</li>
+            <li class="precios">$70.500</li>
+            <li class="descuentos">15% OFF</li>
+            <li class="descrip">Teléfono móvil Samsung Galaxy S10 Lorem ipsum, dolor sit amet.</li>
         </ol>
+        </article>
 
-        <img src="/images/img-samsung-galaxy-s10.jpg" >
+        <article class="articuloBot">
+            <img src="/images/img-samsung-galaxy-s10.jpg" >
         <ol>
-            <li>$34.000</li>
-            <li>5% OFF</li>
-            <li>SmartTv Samsung 43" Lorem ipsum, dolor sit amet.</li>
+            <li class="precios">$34.000</li>
+            <li class="descuentos">5% OFF</li>
+            <li class="descrip">SmartTv Samsung 43" Lorem ipsum, dolor sit amet.</li>
         </ol>
-    </div>
+        </article>
+       
+      </div>
+     </section>
+    
+        <footer>
+        <article class="articuloPie"> 
+            <p><i class="far fa-credit-card"></i></p>
+            <h2 class="titulo-foot">Pagá con tarjeta o en efectivo</h2>
+            <p class="p-foot">Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+        </article>
 
-    <div>
-        <h2>Ofertas</h2>
+        <article class="articuloPie"> 
+            <p><i class="fas fa-gift"></i></p>
+            <h2 class="titulo-foot">Envío gratis desde los $ 2.500</h2>
+            <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos.</p>
+        </article> 
 
-        <h2>Basado en tu última visita</h2>
-        
-        <img src="/images/img-cafetera-moulinex.jpg" >
-        <ol>
-            <li>$6.770</li>
-            <li>40% OFF</li>
-            <li>Cafetera Moulinex Dolce Gusto Lorem ipsum, dolor sit amet.</li>
-        </ol>
+        <article class="articuloPie"> 
+            <p><i class="fas fa-user-shield"></i></p>
+            <h2 class="titulo-foot">Seguridad, de principio a fin</h2>
+            <p class="p-foot">¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre protegid@.</p>
+        </article> 
 
-        <img src="/images/img-macbook-pro-2019.jpg" >
-        <ol>
-            <li>$230.000</li>
-            <li>20% OFF</li>
-            <li>Macbook Pro 2019 Lorem ipsum, dolor sit amet.</li>
-        </ol>
+            <div>
+            <small> Copyright © 1999-2019 MercadoLiebre S.R.L. </small>
+            </div>
+        </footer>
 
-        <img src="/images/img-tv-samsung-smart.jpg" >
-        <ol>
-            <li>$70.500</li>
-            <li>15% OFF</li>
-            <li>Teléfono móvil Samsung Galaxy S10 Lorem ipsum, dolor sit amet.</li>
-        </ol>
-
-        <img src="/images/img-samsung-galaxy-s10.jpg" height="auto" width="320">
-        <ol>
-            <li>$34.000</li>
-            <li>5% OFF</li>
-            <li>SmartTv Samsung 43" Lorem ipsum, dolor sit amet.</li>
-        </ol>
-    </div>
-
-    <div>
-        <h2>Pagá con tarjeta o en efectivo</h2>
-        <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
-
-        <h2>Envío gratis desde los $ 2.500</h2>
-        <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos.</p>
-
-        <h2>Seguridad, de principio a fin</h2>
-        <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre protegid@.</p>
-
-        <h3>Copyright © 1999-2019 MercadoLiebre S.R.L.</h3>
-    </div>
+    </main>
     
 </body>
 </html>

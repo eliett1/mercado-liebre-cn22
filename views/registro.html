@@ -5,60 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 <body>
-    <div>
-        <img src="images/logo-mercado-liebre.svg" alt="logo">
-    </div>
+  <main>
+    <header>
+      <div>
+          <img class="logo" src="/images/logo-mercado-liebre.svg" alt="logo">
+          <input class="buscador" type="Buscar productos, marcas y màs"><i class="fas fa-search"></i>
+          <h1 align = "center">
+              Compra en cuotas y sin tarjetas de crèdito
+          </h1>
+      </div>
+      <div class="botonMenu">
+          <i class="fas fa-bars"></i>
+      </div>
+
+      <div>
+          <ul>
+              <li><a href="/ofertas">Ofertas</a></li>
+              <li><a href="/tiendas-oficiales">Tiendas oficiales</a></li>
+              <li><a href="/vender">Vender</a></li>
+              <li><a href="/ayuda">Ayuda</a></li>
+          </ul>
+          
+          <ul>
+              <li><a href="/registro">Creá tu cuenta</a><i class="fas fa-home"></i></li>
+              <li><a href="/login">Ingresá</a><i class="far fa-id-card"></i></li>
+              <li><a href="/compras">Mis compras</a><i class="fas fa-shopping-cart"></i></li>
+          </ul>
+      </div>
+      </header>
+  
+
     <div>
         <form action="/" method="POST">
 
     <label for="nombre"></label> 
-    	<input type="text" id="nombre" name="nombreApellido" placeholder="Nombre y Apellido"> 
+    	<input class="inputRegistro" type="text" id="nombre" name="nombreApellido" placeholder="Nombre y Apellido"> 
        <br>
     <label for="nombreUsuario"></label> 
-    	<input type="text" id="nombreUsuario" name="user" placeholder="Nombre de Usuario"> 
+    	<input class="inputRegistro" type="text" id="nombreUsuario" name="user" placeholder="Nombre de Usuario"> 
       <br>
     <label for="email"></label> 
-    	<input type="email" id="email" name="email" placeholder="Email"> 
+    	<input class="inputRegistro" type="email" id="email" name="email" placeholder="Email"> 
       <br>
     
-      <label for="fecha">Fecha de nacimiento</label> <br>
-      <input type="date" id="fecha" name="fecha" value= "2002-01-01" min= "2002-01-01" max="2099-01-01" placeholder="DD-MM-AAAA"><br>
+      <label for="fecha"><strong> Fecha de nacimiento</strong></label> <br>
+      <input class="inputRegistro" type="date" id="fecha" name="fecha" value= "2002-01-01" min= "2002-01-01" max="2099-01-01" placeholder="DD-MM-AAAA"><br>
    
 
     <label for="domicilio"></label> 
-    	<input type="text" id="domicilio" name="domicilio" placeholder="Domicilio"> 
+    	<input class="inputRegistro" type="text" id="domicilio" name="domicilio" placeholder="Domicilio"> 
      <br>
 
-    <label for="">Perfil de Usuario</label><br>
+    <label class="labelRegistro" for="perfil"><strong>Perfil de Usuario</strong> </label><br>
     <input type="radio" name="perfil" value="c" checked> Comprador 
-    <input type="radio" name="perfil" value="v" > Vendedor
+    <input type="radio" name="perfil" value="v" > Vendedor <br><br>
 
-    <label for="">Intereses</label>
+    <label class="labelRegistro" for="intereses"><strong>Intereses</strong></label><br><br>
     <input type="checkbox" name="intereses" value="Electro" > Electro 
     <input type="checkbox" name="intereses" value="Moda" > Moda 
     <input type="checkbox" name="intereses" value="Hogar" > Hogar 
     <input type="checkbox" name="intereses" value="Juguetes" > Juguetería 
     <input type="checkbox" name="intereses" value="Vida" > Vida Sana <br><br>
 
-    <input type="file" id="file" name="file" accept="image/png, image/jpeg"><br>
+    <label class="labelRegistro" for="pic"><strong>Elige tu foto de usuario</strong></label><br>
+
+    <input type="file" id="file" name="file" accept="image/png, image/jpeg"><br><br>
 
 
-    <label for="password">Contraseña:</label><br>
-    <input type="password" id="password" name="password" placeholder="Elegí tu contraseña"><br>
+    <label  class="labelRegistro" for="password"><strong>Contraseña:</strong></label><br>
+    <input class="inputRegistro" type="password" id="password" name="password" placeholder="Elegí tu contraseña"><br>
 
-    <label for="repeat-password">Confirmar contraseña:</label><br>
-    <input type="password" id="repeat-password" name="repeat-password" placeholder="Confirma tu contraseña"><br>
+    <label for="repeat-password"><strong>Confirmar contraseña:</strong></label><br>
+    <input class="inputRegistro" type="password" id="repeat-password" name="repeat-password" placeholder="Confirma tu contraseña"><br>
     
     
-    <button type="submit">Enviar</button>
-    <button type="submit">Borrar</button>
+    <button class="botonIngreso" type="submit">Enviar</button>
+    <button class="botonReset" type="submit">Borrar</button>
 
-    </form>
-</div>
+     </form>
+   </div>
 
-    
+   <footer>
+    <article class="articuloPie"> 
+        <p><i class="far fa-credit-card"></i></p>
+        <h2 class="titulo-foot">Pagá con tarjeta o en efectivo</h2>
+        <p class="p-foot">Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+    </article>
+
+    <article class="articuloPie"> 
+        <p><i class="fas fa-gift"></i></p>
+        <h2 class="titulo-foot">Envío gratis desde los $ 2.500</h2>
+        <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de MercadoPuntos.</p>
+    </article> 
+
+    <article class="articuloPie"> 
+        <p><i class="fas fa-user-shield"></i></p>
+        <h2 class="titulo-foot">Seguridad, de principio a fin</h2>
+        <p class="p-foot">¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre protegid@.</p>
+    </article> 
+
+        <div>
+        <small> Copyright © 1999-2019 MercadoLiebre S.R.L. </small>
+        </div>
+    </footer>
+
+
+  </main>   
 
 </body>
 </html>
