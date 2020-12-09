@@ -212,7 +212,7 @@ input[type='radio'] {
 }
 
 
-/* footer */
+
 
 
 .footer {
@@ -241,7 +241,7 @@ input[type='radio'] {
 
 
 
-/* estilos del main */
+
 
 .main-producto {
 	background-color: white;
@@ -324,29 +324,21 @@ h2 {
 /* Zona Responsive */
 
 @media (min-width: 768px) {
+
 	.encabezado {
 		justify-content: space-around;
 		align-items: center;
 	}
+
 	.encabezado-contenedor-input {
 		width: 30%;
 	}
+
 	.header__search {
 		padding: 8px;
 		border-radius: 5px;
 		border: 0;
 		outline: 0;
-	}
-	.searchIcon {
-		top: 50%;
-		transform: translateY(-50%);
-	}
-	.encabezado-logo {
-		width: 25%;
-	}
-	.encabezado-descripcion {
-		flex-basis: auto;
-		font-size: 14px;
 	}
 
 	.encabezado-barra-nav {
@@ -356,9 +348,25 @@ h2 {
 		font-size: 14px;
 		justify-content: space-between;
 	}
+
+	.searchIcon {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.encabezado-logo {
+		width: 25%;
+	}
+
+	.encabezado-descripcion {
+		flex-basis: auto;
+		font-size: 14px;
+	}
+
 	.encabezado-barra-nav1 , .encabezado-barra-nav2{
 		display: flex;
 	}
+
 	.encabezado-barra-nav1 > li ,.encabezado-barra-nav2 > li{
 		padding:  0 10px;
 	}
@@ -366,11 +374,12 @@ h2 {
 	.encabezado-barra-nav1 > li > a , .encabezado-barra-nav2 > li > a {
 		color: black;
 	}
+
 	.encabezado-boton-container {
 		display: none;
 	}
 
-	/* main */
+	/* estilos de main */
 
 	.lastvisited,
 	.offers {
@@ -389,15 +398,7 @@ h2 {
 
 
 @media (min-width: 960px) {
-	.lastvisited,
-	.offers {
-		 
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		height: 470px;
-		align-items: flex-start;
-	}
+
 	.main-producto {
 		flex-basis: 20%;
 	}
@@ -410,6 +411,16 @@ h2 {
 		display: none;
 	}
 
+	.lastvisited,
+	.offers {
+		 
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		height: 470px;
+		align-items: flex-start;
+	}
+
 	.main-producto:hover .main-producto-descrip {
 		display: initial;
 	}
@@ -418,11 +429,12 @@ h2 {
 		transition: 0.3s linear;
 		transform-origin: -50%;
 	}
+
 	.main-producto:hover .main__icon {
 		transform: rotate(-30deg);
 	}
 
-	/* footer */
+	
 
 	.footer {
 		margin-top: 100px;
