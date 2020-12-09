@@ -7,6 +7,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body {
+	background-color: #ebebeb;
+}
 li {
 	list-style: none;
 }
@@ -19,9 +22,6 @@ i {
 	color: #03264c;
 }
 
-body {
-	background-color: #ebebeb;
-}
 
 /* Encabezado */
 
